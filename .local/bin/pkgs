@@ -1,0 +1,6 @@
+if [ "$(xbps-query -l | wc -l)" != "699" ]
+then
+  echo " NOT 699 PACKAGES "
+else
+  echo " pkgs: [ $(xbps-query -l | wc -l) ] "
+fi

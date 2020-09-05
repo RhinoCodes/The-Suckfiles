@@ -1,0 +1,6 @@
+#!/bin/python3
+import subprocess
+
+h = subprocess.check_output(["nmcli", "connection"]).decode("utf-8").splitlines()[1].split()[0]
+p = subprocess.check_output(["nmcli", "networking", "connectivity"]).decode("utf-8")[:-1]
+print(" "+h+" - "+p+" ")

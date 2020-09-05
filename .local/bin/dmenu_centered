@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. "${HOME}/.cache/wal/colors.sh"
+dmenu_run -c -l 20 -h 23 -nb "$color0" -nf "$color15" -sb "$color1" -sf "$color15" -h 26
+#-nb "#1b1e25" -nf "#b4ccd9" -sb "#9D7468" -sf "#b4ccd9"

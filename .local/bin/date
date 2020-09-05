@@ -1,0 +1,1 @@
+echo " [ $(date -d "$day $mon 1" "+%d/%m") ] "
